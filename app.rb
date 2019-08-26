@@ -5,3 +5,14 @@ require_relative 'config/environment'
     get '/reversename/:name' do
       params[:name].reverse
     end
+    
+    get '/square/:number'
+      num = params[:number].to_i
+      
+    end
+    
+    
+    
+    
+    
+end
