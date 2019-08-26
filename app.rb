@@ -7,7 +7,7 @@ require 'pry'
   # Write your code here!	
 
 
- end 	  get '/reversename/:name' do
+  get '/reversename/:name' do
     params[:name].reverse
   end
 
