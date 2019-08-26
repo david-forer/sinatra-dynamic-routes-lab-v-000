@@ -14,7 +14,10 @@ require_relative 'config/environment'
     
   get '/say/:number/:phrase'
     final_phrase = ""
-    
+    params[:number].to_i.times do
+      phrase += params[:phrase]
+  end
+  final_phrase
   end 
     
     
