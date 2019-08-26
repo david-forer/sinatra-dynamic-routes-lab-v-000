@@ -13,6 +13,7 @@ require_relative 'config/environment'
     
     
   get '/say/:number/:phrase'
+    final_phrase = ""
     
   end 
     
