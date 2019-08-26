@@ -8,7 +8,7 @@ require_relative 'config/environment'
     
     get '/square/:number'
       num = params[:number].to_i
-      
+      (num**2).to_s
     end
     
     
