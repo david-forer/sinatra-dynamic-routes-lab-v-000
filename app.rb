@@ -43,5 +43,3 @@ require 'pry'
       answer.to_s
     end
   end
-
-end
